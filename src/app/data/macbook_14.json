@@ -1,0 +1,621 @@
+[
+    {
+        "id": 0,
+        "CPU": "8-core CPU",
+        "GPU": "10-core GPU",
+        "subtitle": "Apple M3 chip with 8-core CPU, 10-core GPU, 16-core Neural Engine",
+        "memory": {
+            "result": 0,
+            "choice": [
+                {
+                    "type": "8GB Unified Memory",
+                    "availability": true,
+                    "additional_price": 0
+                },
+                {
+                    "type": "16GB Unified Memory",
+                    "availability": true,
+                    "additional_price": 800
+                },
+                {
+                    "type": "24GB Unified Memory",
+                    "availability": true,
+                    "additional_price": 1600
+                }
+            ],
+            "subtitle": ""
+        },
+        "storage": {
+            "result": 0,
+            "choice": [
+                {
+                    "type": "512GB SSD storage",
+                    "availability": true,
+                    "additional_price": 0
+                },
+                {
+                    "type": "1TB SSD storage",
+                    "availability": true,
+                    "additional_price": 800
+                },
+                {
+                    "type": "2TB SSD storage",
+                    "availability": true,
+                    "additional_price": 2400
+                }
+            ]
+        },
+        "display": "14-inch Liquid Retina XDR display²",
+        "ports": "Two Thunderbolt / USB 4 ports, HDMI port, SDXC card slot, headphone jack, MagSafe 3 port",
+        "keyboard_title": "Magic Keyboard with Touch ID",
+        "Keyboard": {
+            "result": 0,
+            "choice": [
+                "Backlit Magic Keyboard with Touch ID - US English",
+                "Backlit Magic Keyboard with Touch ID - US English (Pinyin)",
+                "Backlit Magic Keyboard with Touch ID - US Chinese (Zhuyin)",
+                "Backlit Magic Keyboard with Touch ID - US Arabic",
+                "Backlit Magic Keyboard with Touch ID - US Japanese"
+            ]
+        },
+        "trackpad": "Force Touch trackpad",
+        "adapter": {
+            "result": 0,
+            "choice": [
+                {
+                    "type": "70W USB-C Power Adapter",
+                    "additional_price": 0
+                },
+                {
+                    "type": "96W USB-C Power Adapter",
+                    "additional_price": 80
+                }
+            ]
+        },
+        "type": 1,
+        "price": 7499,
+        "price_div": 312.46,
+        "color": {
+            "result": 0,
+            "choice": [
+                "Space Grey",
+                "Silver"
+            ]
+        }
+    },
+    {
+        "id": 1,
+        "CPU": "8-core CPU",
+        "GPU": "10-core GPU",
+        "subtitle": "Apple M3 chip with 8-core CPU, 10-core GPU, 16-core Neural Engine",
+        "memory": {
+            "result": 0,
+            "choice": [
+                {
+                    "type": "8GB Unified Memory",
+                    "availability": true,
+                    "additional_price": 0
+                },
+                {
+                    "type": "16GB Unified Memory",
+                    "availability": true,
+                    "additional_price": 800
+                },
+                {
+                    "type": "24GB Unified Memory",
+                    "availability": true,
+                    "additional_price": 1600
+                }
+            ],
+            "subtitle": ""
+        },
+        "storage": {
+            "result": 0,
+            "choice": [
+                {
+                    "type": "1TB SSD storage",
+                    "availability": true,
+                    "additional_price": 0
+                },
+                {
+                    "type": "2TB SSD storage",
+                    "availability": true,
+                    "additional_price": 1600
+                }
+            ]
+        },
+        "display": "14-inch Liquid Retina XDR display²",
+        "ports": "Two Thunderbolt / USB 4 ports, HDMI port, SDXC card slot, headphone jack, MagSafe 3 port",
+        "keyboard_title": "Magic Keyboard with Touch ID",
+        "Keyboard": {
+            "result": 0,
+            "choice": [
+                "Backlit Magic Keyboard with Touch ID - US English",
+                "Backlit Magic Keyboard with Touch ID - US English (Pinyin)",
+                "Backlit Magic Keyboard with Touch ID - US Chinese (Zhuyin)",
+                "Backlit Magic Keyboard with Touch ID - US Arabic",
+                "Backlit Magic Keyboard with Touch ID - US Japanese"
+            ]
+        },
+        "trackpad": "Force Touch trackpad",
+        "adapter": {
+            "result": 0,
+            "choice": [
+                {
+                    "type": "70W USB-C Power Adapter",
+                    "additional_price": 0
+                },
+                {
+                    "type": "96W USB-C Power Adapter",
+                    "additional_price": 80
+                }
+            ]
+        },
+        "type": 1,
+        "price": 8299,
+        "price_div": 345.79,
+        "color": {
+            "result": 0,
+            "choice": [
+                "Space Grey",
+                "Silver"
+            ]
+        }
+    },
+    {
+        "id": 2,
+        "CPU": "8-core CPU",
+        "GPU": "10-core GPU",
+        "subtitle": "Apple M3 chip with 8-core CPU, 10-core GPU, 16-core Neural Engine",
+        "memory": {
+            "result": 0,
+            "choice": [
+                {
+                    "type": "16GB Unified Memory",
+                    "availability": true,
+                    "additional_price": 0
+                },
+                {
+                    "type": "24GB Unified Memory",
+                    "availability": true,
+                    "additional_price": 1600
+                }
+            ],
+            "subtitle": ""
+        },
+        "storage": {
+            "result": 0,
+            "choice": [
+                {
+                    "type": "1TB SSD storage",
+                    "availability": true,
+                    "additional_price": 0
+                },
+                {
+                    "type": "2TB SSD storage",
+                    "availability": true,
+                    "additional_price": 1600
+                }
+            ]
+        },
+        "display": "14-inch Liquid Retina XDR display²",
+        "ports": "Two Thunderbolt / USB 4 ports, HDMI port, SDXC card slot, headphone jack, MagSafe 3 port",
+        "keyboard_title": "Magic Keyboard with Touch ID",
+        "Keyboard": {
+            "result": 0,
+            "choice": [
+                "Backlit Magic Keyboard with Touch ID - US English",
+                "Backlit Magic Keyboard with Touch ID - US English (Pinyin)",
+                "Backlit Magic Keyboard with Touch ID - US Chinese (Zhuyin)",
+                "Backlit Magic Keyboard with Touch ID - US Arabic",
+                "Backlit Magic Keyboard with Touch ID - US Japanese"
+            ]
+        },
+        "trackpad": "Force Touch trackpad",
+        "adapter": {
+            "result": 0,
+            "choice": [
+                {
+                    "type": "70W USB-C Power Adapter",
+                    "additional_price": 0
+                },
+                {
+                    "type": "96W USB-C Power Adapter",
+                    "additional_price": 80
+                }
+            ]
+        },
+        "type": 1,
+        "price": 9099,
+        "price_div":379.13,
+        "color": {
+            "result": 0,
+            "choice": [
+                "Space Grey",
+                "Silver"
+            ]
+        }
+    },
+    {
+        "id": 3,
+        "CPU": "11-core CPU",
+        "GPU": "14-core GPU",
+        "subtitle": "Apple M3 Pro chip with 11-core CPU, 14-core GPU, 16-core Neural Engine",
+        "processor": {
+            "result": 0,
+            "choice": [
+                {
+                    "type": "Apple M3 Pro chip with 11‑core CPU, 14‑core GPU and 16‑core Neural Engine",
+                    "availability": true,
+                    "additional_price": 0
+                },
+                {
+                    "type": "Apple M3 Pro chip with 12‑core CPU, 18‑core GPU and 16‑core Neural Engine",
+                    "availability": true,
+                    "additional_price": 800
+                },
+                {
+                    "type": "Apple M3 Max chip with 14‑core CPU, 30‑core GPU and 16‑core Neural Engine",
+                    "availability": true,
+                    "additional_price": 2400
+                },
+                {
+                    "type": "Apple M3 Max chip with 16‑core CPU, 40‑core GPU and 16‑core Neural Engine",
+                    "availability": true,
+                    "additional_price": 3600
+                }
+            ],
+            "condition" : [
+                {"0" : [0,1]},
+                {"1" : [0,1]},
+                {"2" : [1,4]},
+                {"3" : [2,3,5]}
+            ],
+            "subtitle": "Select M3 Max with 30-core GPU to add 96GB of memory. Select M3 Max with 40-core GPU to add 48GB, 64GB, or 128GB."
+        },
+        "memory": {
+            "result": 0,
+            "choice": [
+                {
+                    "type": "18GB Unified Memory",
+                    "availability": true,
+                    "additional_price": 0
+                },
+                {
+                    "type": "36GB Unified Memory",
+                    "availability": true,
+                    "additional_price": 1600
+                },
+                {
+                    "type": "48GB Unified Memory",
+                    "availability": false,
+                    "additional_price": 2400
+                },
+                {
+                    "type": "64GB Unified Memory",
+                    "availability": false,
+                    "additional_price": 3200
+                },
+                {
+                    "type": "96GB Unified Memory",
+                    "availability": false,
+                    "additional_price": 4800
+                },
+                {
+                    "type": "128GB Unified Memory",
+                    "availability": false,
+                    "additional_price": 6400
+                }
+            ],
+            "subtitle": "96GB available with M3 Max with 30-core GPU. 48GB, 64GB, or 128GB available with M3 Max with 40-core GPU."
+        },
+        "storage": {
+            "result": 0,
+            "choice": [
+                {
+                    "type": "512GB SSD storage",
+                    "availability": true,
+                    "additional_price": 0
+                },
+                {
+                    "type": "1TB SSD storage",
+                    "availability": true,
+                    "additional_price": 800
+                },
+                {
+                    "type": "2TB SSD storage",
+                    "availability": true,
+                    "additional_price": 2400
+                },
+                {
+                    "type": "4TB SSD storage",
+                    "availability": true,
+                    "additional_price": 4800
+                },
+                {
+                    "type": "8TB SSD storage",
+                    "availability": false,
+                    "additional_price": 9600
+                }
+            ]
+        },
+        "display": "14-inch Liquid Retina XDR display²",
+        "ports": "Two Thunderbolt / USB 4 ports, HDMI port, SDXC card slot, headphone jack, MagSafe 3 port",
+        "keyboard_title": "Magic Keyboard with Touch ID",
+        "Keyboard": {
+            "result": 0,
+            "choice": [
+                "Backlit Magic Keyboard with Touch ID - US English",
+                "Backlit Magic Keyboard with Touch ID - US English (Pinyin)",
+                "Backlit Magic Keyboard with Touch ID - US Chinese (Zhuyin)",
+                "Backlit Magic Keyboard with Touch ID - US Arabic",
+                "Backlit Magic Keyboard with Touch ID - US Japanese"
+            ]
+        },
+        "trackpad": "Force Touch trackpad",
+        "adapter": {
+            "result": 0,
+            "choice": [
+                {
+                    "type": "70W USB-C Power Adapter",
+                    "additional_price": 0
+                },
+                {
+                    "type": "96W USB-C Power Adapter",
+                    "additional_price": 80
+                }
+            ]
+        },
+        "type": 2,
+        "price": 9999,
+        "price_div": 416.63,
+        "color": {
+            "result": 0,
+            "choice": [
+                "Space Black",
+                "Silver"
+            ]
+        }
+    },
+    {
+        "id": 4,
+        "CPU": "12-core CPU",
+        "GPU": "18-core GPU",
+        "subtitle": "Apple M3 Pro chip with 12-core CPU, 18-core GPU, 16-core Neural Engine",
+        "processor": {
+            "result": 0,
+            "choice": [
+                {
+                    "type": "Apple M3 Pro chip with 12‑core CPU, 18‑core GPU and 16‑core Neural Engine",
+                    "availability": true,
+                    "additional_price": 0
+                },
+                {
+                    "type": "Apple M3 Max chip with 14‑core CPU, 30‑core GPU and 16‑core Neural Engine",
+                    "availability": true,
+                    "additional_price": 1600
+                },
+                {
+                    "type": "Apple M3 Max chip with 16‑core CPU, 40‑core GPU and 16‑core Neural Engine",
+                    "availability": true,
+                    "additional_price": 2800
+                }
+            ],
+            "condition" : [
+                {"0" : [0,1]},
+                {"1" : [1,4]},
+                {"2" : [2,3,5]}
+            ],
+            "subtitle": "Select M3 Max with 30-core GPU to add 96GB of memory. Select M3 Max with 40-core GPU to add 48GB, 64GB, or 128GB."
+        },
+        "memory": {
+            "result": 0,
+            "choice": [
+                {
+                    "type": "18GB Unified Memory",
+                    "availability": true,
+                    "additional_price": 0
+                },
+                {
+                    "type": "36GB Unified Memory",
+                    "availability": true,
+                    "additional_price": 1600
+                },
+                {
+                    "type": "48GB Unified Memory",
+                    "availability": false,
+                    "additional_price": 2400
+                },
+                {
+                    "type": "64GB Unified Memory",
+                    "availability": false,
+                    "additional_price": 3200
+                },
+                {
+                    "type": "96GB Unified Memory",
+                    "availability": false,
+                    "additional_price": 4800
+                },
+                {
+                    "type": "128GB Unified Memory",
+                    "availability": false,
+                    "additional_price": 6400
+                }
+            ],
+            "subtitle": "96GB available with M3 Max with 30-core GPU. 48GB, 64GB, or 128GB available with M3 Max with 40-core GPU."
+        },
+        "storage": {
+            "result": 0,
+            "choice": [
+                {
+                    "type": "1TB SSD storage",
+                    "availability": true,
+                    "additional_price": 0
+                },
+                {
+                    "type": "2TB SSD storage",
+                    "availability": true,
+                    "additional_price": 1600
+                },
+                {
+                    "type": "4TB SSD storage",
+                    "availability": true,
+                    "additional_price": 4000
+                },
+                {
+                    "type": "8TB SSD storage",
+                    "availability": false,
+                    "additional_price": 8800
+                }
+            ]
+        },
+        "display": "14-inch Liquid Retina XDR display²",
+        "ports": "Two Thunderbolt / USB 4 ports, HDMI port, SDXC card slot, headphone jack, MagSafe 3 port",
+        "keyboard_title": "Magic Keyboard with Touch ID",
+        "Keyboard": {
+            "result": 0,
+            "choice": [
+                "Backlit Magic Keyboard with Touch ID - US English",
+                "Backlit Magic Keyboard with Touch ID - US English (Pinyin)",
+                "Backlit Magic Keyboard with Touch ID - US Chinese (Zhuyin)",
+                "Backlit Magic Keyboard with Touch ID - US Arabic",
+                "Backlit Magic Keyboard with Touch ID - US Japanese"
+            ]
+        },
+        "trackpad": "Force Touch trackpad",
+        "adapter": {
+            "result": 0,
+            "choice": [
+                {
+                    "type": "96W USB-C Power Adapter",
+                    "additional_price": 0
+                }
+            ]
+        },
+        "type": 2,
+        "price": 11599,
+        "price_div": 483.29,
+        "color": {
+            "result": 0,
+            "choice": [
+                "Space Black",
+                "Silver"
+            ]
+        }
+    },
+    {
+        "id": 5,
+        "CPU": "14-core CPU",
+        "GPU": "30-core GPU",
+        "subtitle": "Apple M3 Max chip with 14-core CPU, 30-core GPU, 16-core Neural Engine",
+        "processor": {
+            "result": 0,
+            "choice": [
+                {
+                    "type": "Apple M3 Max chip with 14‑core CPU, 30‑core GPU and 16‑core Neural Engine",
+                    "availability": true,
+                    "additional_price": 0
+                },
+                {
+                    "type": "Apple M3 Max chip with 16‑core CPU, 40‑core GPU and 16‑core Neural Engine",
+                    "availability": true,
+                    "additional_price": 1200
+                }
+            ],
+            "condition" : [
+                {"0" : [0,3]},
+                {"1" : [1,2,4]}
+            ],
+            "subtitle": "Select M3 Max with 30-core GPU to add 96GB of memory. Select M3 Max with 40-core GPU to add 48GB, 64GB, or 128GB."
+        },
+        "memory": {
+            "result": 0,
+            "choice": [
+                {
+                    "type": "36GB Unified Memory",
+                    "availability": true,
+                    "additional_price": 0
+                },
+                {
+                    "type": "48GB Unified Memory",
+                    "availability": false,
+                    "additional_price": 800
+                },
+                {
+                    "type": "64GB Unified Memory",
+                    "availability": false,
+                    "additional_price": 1600
+                },
+                {
+                    "type": "96GB Unified Memory",
+                    "availability": true,
+                    "additional_price": 3200
+                },
+                {
+                    "type": "128GB Unified Memory",
+                    "availability": false,
+                    "additional_price": 4800
+                }
+            ],
+            "subtitle": "96GB available with M3 Max with 30-core GPU. 48GB, 64GB, or 128GB available with M3 Max with 40-core GPU."
+        },
+        "storage": {
+            "result": 0,
+            "choice": [
+                {
+                    "type": "1TB SSD storage",
+                    "availability": true,
+                    "additional_price": 0
+                },
+                {
+                    "type": "2TB SSD storage",
+                    "availability": true,
+                    "additional_price": 1600
+                },
+                {
+                    "type": "4TB SSD storage",
+                    "availability": true,
+                    "additional_price": 4000
+                },
+                {
+                    "type": "8TB SSD storage",
+                    "availability": true,
+                    "additional_price": 8800
+                }
+            ]
+        },
+        "display": "14-inch Liquid Retina XDR display²",
+        "ports": "Two Thunderbolt / USB 4 ports, HDMI port, SDXC card slot, headphone jack, MagSafe 3 port",
+        "keyboard_title": "Magic Keyboard with Touch ID",
+        "Keyboard": {
+            "result": 0,
+            "choice": [
+                "Backlit Magic Keyboard with Touch ID - US English",
+                "Backlit Magic Keyboard with Touch ID - US English (Pinyin)",
+                "Backlit Magic Keyboard with Touch ID - US Chinese (Zhuyin)",
+                "Backlit Magic Keyboard with Touch ID - US Arabic",
+                "Backlit Magic Keyboard with Touch ID - US Japanese"
+            ]
+        },
+        "trackpad": "Force Touch trackpad",
+        "adapter": {
+            "result": 0,
+            "choice": [
+                {
+                    "type": "96W USB-C Power Adapter",
+                    "additional_price": 0
+                }
+            ]
+        },
+        "type": 3,
+        "price": 14799,
+        "price_div": 616.63,
+        "color": {
+            "result": 0,
+            "choice": [
+                "Space Black",
+                "Silver"
+            ]
+        }
+    }
+]
