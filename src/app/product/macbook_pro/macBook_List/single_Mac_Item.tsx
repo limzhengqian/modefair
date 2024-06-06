@@ -11,9 +11,13 @@ interface PropsInterface {
 }
 const SingleMacItem: React.FC<PropsInterface> = ({ macItem }) => {
   const [colorChoice, updateColorChoice] = useState<number>(0);
-  const router = useRouter()
-  function handleRedirect(){
-    router.push(`/product/macbook_pro/macbook_detail/14-inch-${macItem.color.choice[colorChoice]}/${macItem.id}`)
+  const [borderChoice, updateBorderChoice] = useState<boolean>(false);
+  const [borderChoice2, updateBorderChoice2] = useState<boolean>(false);
+  const router = useRouter();
+  function handleRedirect() {
+    router.push(
+      `/product/macbook_pro/macbook_detail/14-inch-${macItem.color.choice[colorChoice]}/${macItem.id}`
+    );
   }
 
   const formatWithTwoDecimals = (num: number | undefined): string => {
@@ -38,8 +42,17 @@ const SingleMacItem: React.FC<PropsInterface> = ({ macItem }) => {
         )}
         <div className="flex mt-3">
           <div
+            tabIndex={-1}
+            onBlur={() => {
+              updateBorderChoice(false);
+            }}
+            onFocus={() => {
+              updateBorderChoice(true);
+            }}
             onClick={() => updateColorChoice(0)}
-            className={`mr-4 border outline-double outline-offset-2 ${
+            className={`mr-4 border ${
+              borderChoice ? ` outline-double ` : ` outline outline-1 `
+            } outline-offset-2 ${
               macItem.color.choice[0] === "Space Grey"
                 ? `bg-customGreyBall`
                 : `bg-customBlackBall`
@@ -48,8 +61,17 @@ const SingleMacItem: React.FC<PropsInterface> = ({ macItem }) => {
             }`}
           ></div>
           <div
+            tabIndex={-1}
+            onBlur={() => {
+              updateBorderChoice2(false);
+            }}
+            onFocus={() => {
+              updateBorderChoice2(true);
+            }}
             onClick={() => updateColorChoice(1)}
-            className={`border outline-double outline-offset-2 bg-customSilverBall rounded-full w-6 h-6 ${
+            className={`border ${
+              borderChoice2 ? ` outline-double ` : ` outline outline-1`
+            } outline-offset-2 bg-customSilverBall rounded-full w-6 h-6 ${
               colorChoice == 1 ? `outline-sky-700` : `outline-transparent`
             }`}
           ></div>
@@ -129,7 +151,10 @@ const SingleMacItem: React.FC<PropsInterface> = ({ macItem }) => {
             </svg>
           </p>
         </div>
-        <button className="mt-6 w-full bg-customButtonColor h-9 text-white text-sm border-0 rounded-md" onClick={handleRedirect}>
+        <button
+          className="mt-6 w-full bg-customButtonColor h-9 text-white text-sm border-0 rounded-md"
+          onClick={handleRedirect}
+        >
           Select
         </button>
         <div className="text-sm mt-5 max-w-60">

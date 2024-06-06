@@ -2,22 +2,46 @@
 import { MacItem16 } from "@/app/data/mac_interface";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 interface PropsInterface {
   macItem: MacItem16;
 }
 const SingleMacItem16: React.FC<PropsInterface> = ({ macItem }) => {
-  const router = useRouter()
+  const router = useRouter();
   const [colorChoice, updateColorChoice] = useState<number>(0);
-  function handleRedirect(){
-    router.push(`/product/macbook_pro/macbook_detail/16-inch-${macItem.color.choice[colorChoice]}/${macItem.id}`)
+  const [borderChoice, updateBorderChoice] = useState<boolean>(false);
+  const [borderChoice2, updateBorderChoice2] = useState<boolean>(false);
+
+  function handleRedirect() {
+    router.push(
+      `/product/macbook_pro/macbook_detail/16-inch-${macItem.color.choice[colorChoice]}/${macItem.id}`
+    );
   }
   const formatWithTwoDecimals = (num: number | undefined): string => {
     if (typeof num === "number")
       return num.toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ",");
     return "";
   };
+  const containerRef = useRef<HTMLDivElement>(null);
+
+  const handleClickOutside = (event: MouseEvent) => {
+    if (
+      containerRef.current &&
+      !containerRef.current.contains(event.target as Node)
+    ) {
+      // Handle the click outside logic here
+      console.log("Clicked outside the container");
+    }
+  };
+
+  useEffect(() => {
+    document.addEventListener("mousedown", handleClickOutside);
+
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
 
   return (
     <div className="font-sans text-left bg-customDarkGrey border-0 rounded-2xl w-[310px] p-4">
@@ -25,7 +49,7 @@ const SingleMacItem16: React.FC<PropsInterface> = ({ macItem }) => {
         src={`/${macItem.color.choice[colorChoice]
           .toLowerCase()
           .replace(" ", "_")}_mac.png`}
-        className="w-[280px] h-[170px]  m-auto" 
+        className="w-[280px] h-[170px]  m-auto"
       />
       <div className="flex flex-col justify-start  mt-10">
         {colorChoice == 0 ? (
@@ -35,8 +59,19 @@ const SingleMacItem16: React.FC<PropsInterface> = ({ macItem }) => {
         )}
         <div className="flex mt-3">
           <div
+            tabIndex={-1}
+            onBlur={() => {
+              updateBorderChoice(false);
+            }}
+            onFocus={() => {
+              updateBorderChoice(true);
+            }}
             onClick={() => updateColorChoice(0)}
-            className={`mr-4 border outline-double outline-offset-2 ${
+            className={`mr-4 border ${
+              borderChoice
+                ? ` outline-double `
+                : ` outline outline-1 `
+            } outline-offset-2 ${
               macItem.color.choice[0] === "Space Grey"
                 ? `bg-customGreyBall`
                 : `bg-customBlackBall`
@@ -45,19 +80,26 @@ const SingleMacItem16: React.FC<PropsInterface> = ({ macItem }) => {
             }`}
           ></div>
           <div
+            tabIndex={-1}
+            onBlur={() => {
+              updateBorderChoice2(false);
+            }}
+            onFocus={() => {
+              updateBorderChoice2(true);
+            }}
             onClick={() => updateColorChoice(1)}
-            className={`border outline-double outline-offset-2 bg-customSilverBall rounded-full w-6 h-6 ${
-              colorChoice == 1 ? `outline-sky-700` : `outline-transparent`
+            className={`border ${
+              borderChoice2
+                ? ` outline-double `
+                : ` outline outline-1`
+            }  bg-customSilverBall rounded-full w-6 h-6 ${
+              colorChoice == 1 ? `outline-sky-700 ` : `outline-transparent`
             }`}
           ></div>
         </div>
         <div>
           <img
-            src={
-              macItem.type === 1
-                ? "/M3Pro.png"
-                : "/M3Max.png"
-            }
+            src={macItem.type === 1 ? "/M3Pro.png" : "/M3Max.png"}
             className="w-12 h-12 mt-5 mb-3"
           />
         </div>
@@ -80,7 +122,7 @@ const SingleMacItem16: React.FC<PropsInterface> = ({ macItem }) => {
           </h2>
           <p className="pt-2 pb-2 text-sm">or</p>
           <h2 className="text-xl sm:text-xl md:text-2xl lg:text-2xl  font-medium md:max-w-52 lg:max-w-52">
-          RM {formatWithTwoDecimals(macItem.price_div)}/mo. for 24 mo.*
+            RM {formatWithTwoDecimals(macItem.price_div)}/mo. for 24 mo.*
           </h2>
           <p className="inline-flex items-center text-sm text-[#06c] hover:cursor-pointer hover:underline">
             {`Explore monthly instalment options > `}
@@ -124,7 +166,10 @@ const SingleMacItem16: React.FC<PropsInterface> = ({ macItem }) => {
             </svg>
           </p>
         </div>
-        <button className="mt-6 w-full bg-customButtonColor h-9 text-white text-sm border-0 rounded-md" onClick={handleRedirect}>
+        <button
+          className="mt-6 w-full bg-customButtonColor h-9 text-white text-sm border-0 rounded-md"
+          onClick={handleRedirect}
+        >
           Select
         </button>
         <div className="text-sm mt-5 max-w-60">
