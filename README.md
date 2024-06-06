@@ -40,3 +40,6 @@ On the landing page, we can see two buttons, the first one is for the first asse
 ![image](https://github.com/limzhengqian/modefair/assets/75511059/5ad16b89-8e1a-4943-a596-ad15341a2adf)
 ![image](https://github.com/limzhengqian/modefair/assets/75511059/43719834-c376-47d9-84f3-f485bb41e6e9)
 
+## Walkthrough of the two assessment
+https://drive.google.com/file/d/1_5jojMVNQxihLYfTQh-Icsax7K78cpsF/view?usp=sharing 
+
